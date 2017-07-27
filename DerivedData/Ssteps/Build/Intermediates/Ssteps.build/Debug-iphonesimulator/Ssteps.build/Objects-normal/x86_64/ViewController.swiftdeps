@@ -1,0 +1,473 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C6Ssteps14ViewController"
+provides-member:
+- ["C6Ssteps14ViewController", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "locationManager"
+- "mapView"
+- "viewDidLoad"
+depends-top-level:
+- "AnyObject"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "CLLocation"
+- !private "CLLocationCoordinate2D"
+- "CLLocationManager"
+- !private "CLLocationManagerDelegate"
+- "CastingPrecedence"
+- !private "MKCoordinateRegion"
+- !private "MKCoordinateSpan"
+- "MKMapView"
+- "UIViewController"
+- "ViewController"
+- !private "kCLLocationAccuracyBest"
+depends-member:
+- !private ["Ps9AnyObject", "CLLocationCoordinate2D"]
+- !private ["Ps9AnyObject", "CLLocationManager"]
+- !private ["Ps9AnyObject", "MKCoordinateRegion"]
+- !private ["Ps9AnyObject", "MKCoordinateSpan"]
+- !private ["Ps9AnyObject", "coordinate"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "desiredAccuracy"]
+- !private ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "kCLLocationAccuracyBest"]
+- !private ["Ps9AnyObject", "locationManager"]
+- !private ["Ps9AnyObject", "locationServicesEnabled"]
+- !private ["Ps9AnyObject", "mapView"]
+- !private ["Ps9AnyObject", "requestAlwaysAuthorization"]
+- !private ["Ps9AnyObject", "setRegion"]
+- !private ["Ps9AnyObject", "startUpdatingLocation"]
+- !private ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "last"]
+- !private ["Ps23BidirectionalCollection", "last"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "setRegion"]
+- !private ["CSo10CLLocation", "coordinate"]
+- !private ["VSC22CLLocationCoordinate2D", "init"]
+- !private ["VSC22CLLocationCoordinate2D", "latitude"]
+- !private ["VSC22CLLocationCoordinate2D", "longitude"]
+- !private ["CSo17CLLocationManager", "delegate"]
+- !private ["CSo17CLLocationManager", "desiredAccuracy"]
+- !private ["CSo17CLLocationManager", "init"]
+- !private ["CSo17CLLocationManager", "locationServicesEnabled"]
+- !private ["CSo17CLLocationManager", "requestAlwaysAuthorization"]
+- !private ["CSo17CLLocationManager", "startUpdatingLocation"]
+- !private ["Ps7CVarArg", "CLLocationCoordinate2D"]
+- !private ["Ps7CVarArg", "CLLocationManager"]
+- !private ["Ps7CVarArg", "MKCoordinateRegion"]
+- !private ["Ps7CVarArg", "MKCoordinateSpan"]
+- !private ["Ps7CVarArg", "coordinate"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "desiredAccuracy"]
+- !private ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "kCLLocationAccuracyBest"]
+- !private ["Ps7CVarArg", "last"]
+- !private ["Ps7CVarArg", "locationManager"]
+- !private ["Ps7CVarArg", "locationServicesEnabled"]
+- !private ["Ps7CVarArg", "mapView"]
+- !private ["Ps7CVarArg", "requestAlwaysAuthorization"]
+- !private ["Ps7CVarArg", "setRegion"]
+- !private ["Ps7CVarArg", "startUpdatingLocation"]
+- !private ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "last"]
+- !private ["Ps28CustomDebugStringConvertible", "CLLocationCoordinate2D"]
+- !private ["Ps28CustomDebugStringConvertible", "CLLocationManager"]
+- !private ["Ps28CustomDebugStringConvertible", "MKCoordinateRegion"]
+- !private ["Ps28CustomDebugStringConvertible", "MKCoordinateSpan"]
+- !private ["Ps28CustomDebugStringConvertible", "coordinate"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "desiredAccuracy"]
+- !private ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "kCLLocationAccuracyBest"]
+- !private ["Ps28CustomDebugStringConvertible", "last"]
+- !private ["Ps28CustomDebugStringConvertible", "locationManager"]
+- !private ["Ps28CustomDebugStringConvertible", "locationServicesEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "mapView"]
+- !private ["Ps28CustomDebugStringConvertible", "requestAlwaysAuthorization"]
+- !private ["Ps28CustomDebugStringConvertible", "setRegion"]
+- !private ["Ps28CustomDebugStringConvertible", "startUpdatingLocation"]
+- !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "last"]
+- !private ["Ps23CustomStringConvertible", "CLLocationCoordinate2D"]
+- !private ["Ps23CustomStringConvertible", "CLLocationManager"]
+- !private ["Ps23CustomStringConvertible", "MKCoordinateRegion"]
+- !private ["Ps23CustomStringConvertible", "MKCoordinateSpan"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "coordinate"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "desiredAccuracy"]
+- !private ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "kCLLocationAccuracyBest"]
+- !private ["Ps23CustomStringConvertible", "last"]
+- !private ["Ps23CustomStringConvertible", "locationManager"]
+- !private ["Ps23CustomStringConvertible", "locationServicesEnabled"]
+- !private ["Ps23CustomStringConvertible", "mapView"]
+- !private ["Ps23CustomStringConvertible", "requestAlwaysAuthorization"]
+- !private ["Ps23CustomStringConvertible", "setRegion"]
+- !private ["Ps23CustomStringConvertible", "startUpdatingLocation"]
+- !private ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CLLocationCoordinate2D"]
+- !private ["Ps9Equatable", "CLLocationManager"]
+- !private ["Ps9Equatable", "MKCoordinateRegion"]
+- !private ["Ps9Equatable", "MKCoordinateSpan"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "coordinate"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "desiredAccuracy"]
+- !private ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "kCLLocationAccuracyBest"]
+- !private ["Ps9Equatable", "locationManager"]
+- !private ["Ps9Equatable", "locationServicesEnabled"]
+- !private ["Ps9Equatable", "mapView"]
+- !private ["Ps9Equatable", "requestAlwaysAuthorization"]
+- !private ["Ps9Equatable", "setRegion"]
+- !private ["Ps9Equatable", "startUpdatingLocation"]
+- !private ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "last"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "CLLocationCoordinate2D"]
+- !private ["Ps8Hashable", "CLLocationManager"]
+- !private ["Ps8Hashable", "MKCoordinateRegion"]
+- !private ["Ps8Hashable", "MKCoordinateSpan"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "coordinate"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "desiredAccuracy"]
+- !private ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "kCLLocationAccuracyBest"]
+- !private ["Ps8Hashable", "locationManager"]
+- !private ["Ps8Hashable", "locationServicesEnabled"]
+- !private ["Ps8Hashable", "mapView"]
+- !private ["Ps8Hashable", "requestAlwaysAuthorization"]
+- !private ["Ps8Hashable", "setRegion"]
+- !private ["Ps8Hashable", "startUpdatingLocation"]
+- !private ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["VSC18MKCoordinateRegion", "init"]
+- !private ["VSC16MKCoordinateSpan", "init"]
+- !private ["CSo9MKMapView", "setRegion"]
+- !private ["Ps17MutableCollection", "last"]
+- !private ["PSo8NSCoding", "CLLocationCoordinate2D"]
+- !private ["PSo8NSCoding", "CLLocationManager"]
+- !private ["PSo8NSCoding", "MKCoordinateRegion"]
+- !private ["PSo8NSCoding", "MKCoordinateSpan"]
+- !private ["PSo8NSCoding", "coordinate"]
+- !private ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "kCLLocationAccuracyBest"]
+- !private ["PSo8NSCoding", "locationManager"]
+- !private ["PSo8NSCoding", "mapView"]
+- !private ["PSo8NSCoding", "setRegion"]
+- !private ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "coordinate"]
+- !private ["PSo26NSExtensionRequestHandling", "CLLocationCoordinate2D"]
+- !private ["PSo26NSExtensionRequestHandling", "CLLocationManager"]
+- !private ["PSo26NSExtensionRequestHandling", "MKCoordinateRegion"]
+- !private ["PSo26NSExtensionRequestHandling", "MKCoordinateSpan"]
+- !private ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "kCLLocationAccuracyBest"]
+- !private ["PSo26NSExtensionRequestHandling", "locationManager"]
+- !private ["PSo26NSExtensionRequestHandling", "mapView"]
+- !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "CLLocation"]
+- !private ["CSo8NSObject", "CLLocationCoordinate2D"]
+- ["CSo8NSObject", "CLLocationManager"]
+- !private ["CSo8NSObject", "CLLocationManagerDelegate"]
+- !private ["CSo8NSObject", "MKCoordinateRegion"]
+- !private ["CSo8NSObject", "MKCoordinateSpan"]
+- ["CSo8NSObject", "MKMapView"]
+- !private ["CSo8NSObject", "coordinate"]
+- !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "desiredAccuracy"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "kCLLocationAccuracyBest"]
+- ["CSo8NSObject", "locationManager"]
+- !private ["CSo8NSObject", "locationServicesEnabled"]
+- ["CSo8NSObject", "mapView"]
+- !private ["CSo8NSObject", "requestAlwaysAuthorization"]
+- !private ["CSo8NSObject", "setRegion"]
+- !private ["CSo8NSObject", "startUpdatingLocation"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "CLLocationCoordinate2D"]
+- !private ["PSo16NSObjectProtocol", "CLLocationManager"]
+- !private ["PSo16NSObjectProtocol", "MKCoordinateRegion"]
+- !private ["PSo16NSObjectProtocol", "MKCoordinateSpan"]
+- !private ["PSo16NSObjectProtocol", "coordinate"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "desiredAccuracy"]
+- !private ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "kCLLocationAccuracyBest"]
+- !private ["PSo16NSObjectProtocol", "locationManager"]
+- !private ["PSo16NSObjectProtocol", "locationServicesEnabled"]
+- !private ["PSo16NSObjectProtocol", "mapView"]
+- !private ["PSo16NSObjectProtocol", "requestAlwaysAuthorization"]
+- !private ["PSo16NSObjectProtocol", "setRegion"]
+- !private ["PSo16NSObjectProtocol", "startUpdatingLocation"]
+- !private ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "coordinate"]
+- !private ["Ps22RandomAccessCollection", "last"]
+- !private ["Ps26RangeReplaceableCollection", "last"]
+- !private ["Ps8Sequence", "last"]
+- !private ["PSo29UIAccessibilityIdentification", "setRegion"]
+- !private ["PSo12UIAppearance", "setRegion"]
+- !private ["PSo21UIAppearanceContainer", "CLLocationCoordinate2D"]
+- !private ["PSo21UIAppearanceContainer", "CLLocationManager"]
+- !private ["PSo21UIAppearanceContainer", "MKCoordinateRegion"]
+- !private ["PSo21UIAppearanceContainer", "MKCoordinateSpan"]
+- !private ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "kCLLocationAccuracyBest"]
+- !private ["PSo21UIAppearanceContainer", "locationManager"]
+- !private ["PSo21UIAppearanceContainer", "mapView"]
+- !private ["PSo21UIAppearanceContainer", "setRegion"]
+- !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "CLLocationCoordinate2D"]
+- !private ["PSo18UIContentContainer", "CLLocationManager"]
+- !private ["PSo18UIContentContainer", "MKCoordinateRegion"]
+- !private ["PSo18UIContentContainer", "MKCoordinateSpan"]
+- !private ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "kCLLocationAccuracyBest"]
+- !private ["PSo18UIContentContainer", "locationManager"]
+- !private ["PSo18UIContentContainer", "mapView"]
+- !private ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "setRegion"]
+- !private ["PSo13UIDynamicItem", "setRegion"]
+- !private ["PSo18UIFocusEnvironment", "CLLocationCoordinate2D"]
+- !private ["PSo18UIFocusEnvironment", "CLLocationManager"]
+- !private ["PSo18UIFocusEnvironment", "MKCoordinateRegion"]
+- !private ["PSo18UIFocusEnvironment", "MKCoordinateSpan"]
+- !private ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "kCLLocationAccuracyBest"]
+- !private ["PSo18UIFocusEnvironment", "locationManager"]
+- !private ["PSo18UIFocusEnvironment", "mapView"]
+- !private ["PSo18UIFocusEnvironment", "setRegion"]
+- !private ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "setRegion"]
+- ["CSo11UIResponder", "AnyObject"]
+- !private ["CSo11UIResponder", "CLLocation"]
+- !private ["CSo11UIResponder", "CLLocationCoordinate2D"]
+- ["CSo11UIResponder", "CLLocationManager"]
+- !private ["CSo11UIResponder", "CLLocationManagerDelegate"]
+- !private ["CSo11UIResponder", "MKCoordinateRegion"]
+- !private ["CSo11UIResponder", "MKCoordinateSpan"]
+- ["CSo11UIResponder", "MKMapView"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "kCLLocationAccuracyBest"]
+- ["CSo11UIResponder", "locationManager"]
+- ["CSo11UIResponder", "mapView"]
+- !private ["CSo11UIResponder", "setRegion"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "CLLocationCoordinate2D"]
+- !private ["PSo30UIResponderStandardEditActions", "CLLocationManager"]
+- !private ["PSo30UIResponderStandardEditActions", "MKCoordinateRegion"]
+- !private ["PSo30UIResponderStandardEditActions", "MKCoordinateSpan"]
+- !private ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "kCLLocationAccuracyBest"]
+- !private ["PSo30UIResponderStandardEditActions", "locationManager"]
+- !private ["PSo30UIResponderStandardEditActions", "mapView"]
+- !private ["PSo30UIResponderStandardEditActions", "setRegion"]
+- !private ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "CLLocationCoordinate2D"]
+- !private ["PSo16UIStateRestoring", "CLLocationManager"]
+- !private ["PSo16UIStateRestoring", "MKCoordinateRegion"]
+- !private ["PSo16UIStateRestoring", "MKCoordinateSpan"]
+- !private ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "kCLLocationAccuracyBest"]
+- !private ["PSo16UIStateRestoring", "locationManager"]
+- !private ["PSo16UIStateRestoring", "mapView"]
+- !private ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "CLLocationCoordinate2D"]
+- !private ["PSo18UITraitEnvironment", "CLLocationManager"]
+- !private ["PSo18UITraitEnvironment", "MKCoordinateRegion"]
+- !private ["PSo18UITraitEnvironment", "MKCoordinateSpan"]
+- !private ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "kCLLocationAccuracyBest"]
+- !private ["PSo18UITraitEnvironment", "locationManager"]
+- !private ["PSo18UITraitEnvironment", "mapView"]
+- !private ["PSo18UITraitEnvironment", "setRegion"]
+- !private ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "setRegion"]
+- ["CSo16UIViewController", "AnyObject"]
+- !private ["CSo16UIViewController", "CLLocation"]
+- !private ["CSo16UIViewController", "CLLocationCoordinate2D"]
+- ["CSo16UIViewController", "CLLocationManager"]
+- !private ["CSo16UIViewController", "CLLocationManagerDelegate"]
+- !private ["CSo16UIViewController", "MKCoordinateRegion"]
+- !private ["CSo16UIViewController", "MKCoordinateSpan"]
+- ["CSo16UIViewController", "MKMapView"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "kCLLocationAccuracyBest"]
+- ["CSo16UIViewController", "locationManager"]
+- ["CSo16UIViewController", "mapView"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- ["C6Ssteps14ViewController", "AnyObject"]
+- !private ["C6Ssteps14ViewController", "CLLocation"]
+- !private ["C6Ssteps14ViewController", "CLLocationCoordinate2D"]
+- ["C6Ssteps14ViewController", "CLLocationManager"]
+- !private ["C6Ssteps14ViewController", "CLLocationManagerDelegate"]
+- !private ["C6Ssteps14ViewController", "MKCoordinateRegion"]
+- !private ["C6Ssteps14ViewController", "MKCoordinateSpan"]
+- ["C6Ssteps14ViewController", "MKMapView"]
+- ["C6Ssteps14ViewController", "deinit"]
+- ["C6Ssteps14ViewController", "didReceiveMemoryWarning"]
+- ["C6Ssteps14ViewController", "init"]
+- !private ["C6Ssteps14ViewController", "kCLLocationAccuracyBest"]
+- ["C6Ssteps14ViewController", "locationManager"]
+- ["C6Ssteps14ViewController", "mapView"]
+- ["C6Ssteps14ViewController", "viewDidLoad"]
+- !private ["Ps14_ArrayProtocol", "last"]
+- !private ["Ps23_BidirectionalIndexable", "last"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setRegion"]
+- !private ["Ps24_DestructorSafeContainer", "last"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "CLLocationCoordinate2D"]
+- !private ["Ps9_Hashable", "CLLocationManager"]
+- !private ["Ps9_Hashable", "MKCoordinateRegion"]
+- !private ["Ps9_Hashable", "MKCoordinateSpan"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "coordinate"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "desiredAccuracy"]
+- !private ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "kCLLocationAccuracyBest"]
+- !private ["Ps9_Hashable", "locationManager"]
+- !private ["Ps9_Hashable", "locationServicesEnabled"]
+- !private ["Ps9_Hashable", "mapView"]
+- !private ["Ps9_Hashable", "requestAlwaysAuthorization"]
+- !private ["Ps9_Hashable", "setRegion"]
+- !private ["Ps9_Hashable", "startUpdatingLocation"]
+- !private ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "last"]
+- !private ["Ps14_IndexableBase", "last"]
+- !private ["Ps17_MutableIndexable", "last"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "last"]
+- !private ["Ps21_ObjectiveCBridgeable", "latitude"]
+- !private ["Ps21_ObjectiveCBridgeable", "longitude"]
+- !private ["Ps22_RandomAccessIndexable", "last"]
+- !private ["Ps26_RangeReplaceableIndexable", "last"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "CSo10CLLocation"
+- !private "VSC22CLLocationCoordinate2D"
+- !private "CSo17CLLocationManager"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "VSC18MKCoordinateRegion"
+- !private "VSC16MKCoordinateSpan"
+- !private "CSo9MKMapView"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "C6Ssteps14ViewController"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "cac1f0e76e435f14fcfefae924518d2c"

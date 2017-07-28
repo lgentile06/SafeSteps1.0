@@ -164,6 +164,7 @@ SWIFT_CLASS("_TtC6Ssteps14ViewController")
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (void)locationManagerWithManager:(CLLocationManager * _Null_unspecified)manager didUpdateLocations:(NSArray * _Null_unspecified)locations;
+- (void)makeGetCall;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
